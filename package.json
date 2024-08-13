@@ -1,0 +1,21 @@
+{
+  "name": "espresso-connect",
+  "displayName": "Espresso Connect",
+  "description": "A espresso/coffee themed VS Code color pallette to get caffeine high without even having a sip ! ;)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Espresso Connect",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Espresso Connect-color-theme.json"
+      }
+    ]
+  }
+}
